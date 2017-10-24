@@ -1,8 +1,12 @@
 package component;
+
 import javax.swing.JOptionPane;
+
 public class PlaneCoordinates
+
 {
-     public static void main (String args[])
+    
+    public static void main (String args[])
      {
          String input1, input2, input3, input4, results1, results2, results3, results4="";
          int  x1,y1,x2,y2;
@@ -28,11 +32,13 @@ public class PlaneCoordinates
          results3="Midpoint (x',y') with y' = "+midpoint2;
          results4="The slope of the line is = "+slope;
          
-JOptionPane.showMessageDialog(null,results1,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
-JOptionPane.showMessageDialog(null,results2,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
-JOptionPane.showMessageDialog(null,results3,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
-JOptionPane.showMessageDialog(null,results4,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
+          JOptionPane.showMessageDialog(null,results1,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
+          JOptionPane.showMessageDialog(null,results2,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
+          JOptionPane.showMessageDialog(null,results3,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
+          JOptionPane.showMessageDialog(null,results4,"PlaneCoordiantes",JOptionPane.INFORMATION_MESSAGE);
+
 
      }
+     
 }
 
